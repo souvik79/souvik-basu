@@ -309,12 +309,61 @@
                 </div>
                 <div class="card-hover bg-white p-8 rounded-xl shadow-lg">
                     <div class="text-indigo-600 text-3xl mb-4">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Document Q&A System</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Intelligent Document Question-Answering with Multi-Modal AI. Chat with your documents (PDF, DOCX, Images), leverage powerful RAG, and toggle between local (Ollama) and cloud (Gemini) AI models.
+                    </p>
+                    <div class="space-y-3">
+                        <h4 class="font-semibold text-gray-800">Key Features:</h4>
+                        <ul class="text-gray-600 space-y-1 list-disc list-inside text-sm">
+                            <li>Multi-format document support (PDF, DOCX, Images, Web content)</li>
+                            <li>Flexible AI providers (Local Ollama + Cloud Gemini)</li>
+                            <li>Hybrid search (semantic + keyword matching)</li>
+                            <li>Image understanding with OCR and Vision AI</li>
+                            <li>Multi-project management with persistent conversations</li>
+                            <li>Source attribution and export capabilities (JSON, CSV, PDF)</li>
+                        </ul>
+                        <h4 class="font-semibold text-gray-800 mt-3">Technical Stack:</h4>
+                        <ul class="text-gray-600 space-y-1 list-disc list-inside text-sm">
+                            <li>Framework: LangChain + Streamlit UI</li>
+                            <li>Local Models: Ollama (Qwen 2.5, LLaVA)</li>
+                            <li>Cloud: Google Gemini 2.5 Flash</li>
+                            <li>Vector DB: ChromaDB with hybrid search</li>
+                            <li>OCR & Vision: Tesseract + EasyOCR</li>
+                            <li>Database: SQLite with SQLAlchemy ORM</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-hover bg-white p-8 rounded-xl shadow-lg">
+                    <div class="text-indigo-600 text-3xl mb-4">
                         <i class="fas fa-brain"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-gray-800 mb-3">AI Job Classification</h3>
-                    <p class="text-gray-600 leading-relaxed">
-                        Hybrid classification engine using HuggingFace Transformers, fine-tuned BERT models, and GPT-based classifiers with feedback learning loop.
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Hybrid classification engine using HuggingFace Transformers, fine-tuned BERT models, and GPT-based classifiers with feedback learning loop for accurate job title and category classification.
                     </p>
+                    <div class="space-y-3">
+                        <h4 class="font-semibold text-gray-800">Key Features:</h4>
+                        <ul class="text-gray-600 space-y-1 list-disc list-inside text-sm">
+                            <li>Hybrid classification engine combining multiple approaches</li>
+                            <li>Fine-tuned BERT models for semantic understanding</li>
+                            <li>GPT-based classifiers for complex job titles</li>
+                            <li>Zero-shot classification for niche job titles</li>
+                            <li>Feedback learning loop for continuous improvement</li>
+                            <li>Auto-flagging of misclassifications</li>
+                            <li>Precision-focused rules and embeddings</li>
+                        </ul>
+                        <h4 class="font-semibold text-gray-800 mt-3">Technical Stack:</h4>
+                        <ul class="text-gray-600 space-y-1 list-disc list-inside text-sm">
+                            <li>Framework: HuggingFace Transformers</li>
+                            <li>Models: Fine-tuned BERT, GPT-based classifiers</li>
+                            <li>Embeddings: Semantic embeddings for similarity matching</li>
+                            <li>Database: MySQL/MongoDB for classification history</li>
+                            <li>Feedback System: Auto-learning from misclassifications</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="card-hover bg-white p-8 rounded-xl shadow-lg">
                     <div class="text-indigo-600 text-3xl mb-4">
@@ -330,9 +379,33 @@
                         <i class="fas fa-image"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-gray-800 mb-3">Generative AI Image Tools</h3>
-                    <p class="text-gray-600 leading-relaxed">
-                        Fine-tuned SDXL and ControlNet models using LoRA, cinematic prompts, and BLIP2 auto-captioning pipelines with ComfyUI.
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Fine-tuned SDXL and ControlNet models using LoRA, cinematic prompts, and BLIP2 auto-captioning pipelines with ComfyUI. Also includes FLUX-1-dev image generation with GPT-4 prompt refinement.
                     </p>
+                    <div class="space-y-3">
+                        <h4 class="font-semibold text-gray-800">Key Features:</h4>
+                        <ul class="text-gray-600 space-y-1 list-disc list-inside text-sm">
+                            <li>Fine-tuned SDXL and ControlNet models with LoRA</li>
+                            <li>FLUX-1-dev image generation with GPT-4 prompt refinement</li>
+                            <li>Cinematic prompt engineering</li>
+                            <li>BLIP2 auto-captioning pipelines</li>
+                            <li>ComfyUI integration for advanced workflows</li>
+                            <li>Multi-platform support (Apple Silicon, CUDA, CPU)</li>
+                            <li>GPU pod optimization (RunPod with memory-saving tweaks)</li>
+                            <li>Amazon S3 integration for image uploads</li>
+                            <li>Batch processing via Google Sheets</li>
+                            <li>Docker containerization for easy deployment</li>
+                        </ul>
+                        <h4 class="font-semibold text-gray-800 mt-3">Technical Stack:</h4>
+                        <ul class="text-gray-600 space-y-1 list-disc list-inside text-sm">
+                            <li>Models: SDXL, ControlNet, FLUX-1-dev via Hugging Face Diffusers</li>
+                            <li>Prompt Enhancement: OpenAI GPT-4</li>
+                            <li>Infrastructure: RunPod Serverless, Docker</li>
+                            <li>Storage: Amazon S3</li>
+                            <li>Batch Orchestration: Google Sheets API</li>
+                            <li>Workflow: ComfyUI, BLIP2 auto-captioning</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
